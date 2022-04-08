@@ -1,0 +1,2 @@
+[11-Jul-2021 16:40:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/vtproy20/public_html/contable/APIVTPROYECTOS/conexion/bd.php on line 13
+[10-Sep-2021 19:24:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home1/vtproy20/public_html/contable/APIVTPROYECTOS/clientes/clientes_insert.php on line 66

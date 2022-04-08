@@ -1,0 +1,2 @@
+[11-Jul-2021 16:40:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/vtproy20/public_html/contable/APIVTPROYECTOS/conexion/bd.php on line 13
+[11-Jul-2021 16:40:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/vtproy20/public_html/contable/APIVTPROYECTOS/conexion/bd.php on line 13

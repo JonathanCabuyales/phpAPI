@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>CAIZA TIPAN DAISY FERNANDA</razonSocial>
+		<nombreComercial>CAIZA TIPAN DAISY FERNANDA</nombreComercial>
+		<ruc>1727987628001</ruc>
+		<claveAcceso>2803202201172798762800110010010000000341234567819</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000034</secuencial>
+		<dirMatriz>Sauces del Valle</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>28/03/2022</fechaEmision>
+		<dirEstablecimiento>Sauces del Valle</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>Edgar Andres Alquinga LLive</razonSocialComprador>
+		<identificacionComprador>1751803162</identificacionComprador>
+		<direccionComprador>San Bartolo</direccionComprador>
+		<totalSinImpuestos>9.00</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<baseImponible>9.00</baseImponible>
+				<tarifa>12</tarifa>
+				<valor>1.08</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>10.08</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>10.08</total>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>35</codigoPrincipal>
+			<descripcion>Delineador</descripcion>
+			<cantidad>10</cantidad>
+			<precioUnitario>0.9</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>9.00</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12</tarifa>
+					<baseImponible>9.00</baseImponible>
+					<valor>1.08</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="Leyenda">Contribuyente Regimen RIMPE</campoAdicional>
+		<campoAdicional nombre="email">andresalquinga@hotmail.com</campoAdicional>
+	</infoAdicional>
+</factura>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>CAIZA TIPAN DAISY FERNANDA</razonSocial>
+		<nombreComercial>CAIZA TIPAN DAISY FERNANDA</nombreComercial>
+		<ruc>1727987628001</ruc>
+		<claveAcceso>1102202201172798762800110010010000000321234567816</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000032</secuencial>
+		<dirMatriz>Sauces del Valle</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>11/02/2022</fechaEmision>
+		<dirEstablecimiento>Sauces del Valle</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+		<razonSocialComprador>Edgar Andres Alquinga LLive</razonSocialComprador>
+		<identificacionComprador>1751803162</identificacionComprador>
+		<direccionComprador>San Bartolo</direccionComprador>
+		<totalSinImpuestos>21.29</totalSinImpuestos>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>
+				<baseImponible>14.49</baseImponible>
+				<tarifa>0</tarifa>
+				<valor>0</valor>
+			</totalImpuesto>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<baseImponible>6.80</baseImponible>
+				<tarifa>12</tarifa>
+				<valor>0.82</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0.00</propina>
+		<importeTotal>22.11</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>01</formaPago>
+				<total>22.11</total>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>34</codigoPrincipal>
+			<descripcion>CLIPS</descripcion>
+			<cantidad>10</cantidad>
+			<precioUnitario>1.1</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>11.00</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>11.00</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+		<detalle>
+			<codigoPrincipal>35</codigoPrincipal>
+			<descripcion>Delineador</descripcion>
+			<cantidad>2</cantidad>
+			<precioUnitario>0.9</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>1.80</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12</tarifa>
+					<baseImponible>1.80</baseImponible>
+					<valor>0.22</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+		<detalle>
+			<codigoPrincipal>36</codigoPrincipal>
+			<descripcion>PINTA LABIOS</descripcion>
+			<cantidad>10</cantidad>
+			<precioUnitario>0.5</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>5.00</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12</tarifa>
+					<baseImponible>5.00</baseImponible>
+					<valor>0.60</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+		<detalle>
+			<codigoPrincipal>32</codigoPrincipal>
+			<descripcion>PANOLINI</descripcion>
+			<cantidad>1</cantidad>
+			<precioUnitario>0.89</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>0.89</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>0.89</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+		<detalle>
+			<codigoPrincipal>2</codigoPrincipal>
+			<descripcion>CINTA TEFLON T</descripcion>
+			<cantidad>10</cantidad>
+			<precioUnitario>0.26</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>2.60</precioTotalSinImpuesto>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>2.60</baseImponible>
+					<valor>0.00</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="Leyenda">Contribuyente Regimen RIMPE</campoAdicional>
+		<campoAdicional nombre="email">andresalquinga@hotmail.com</campoAdicional>
+	</infoAdicional>
+</factura>

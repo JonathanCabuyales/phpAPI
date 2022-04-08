@@ -1,0 +1,43 @@
+Servicio: Validar Comprobante
+Clave Acceso: 21313456213134562131345621313456213134562131345621313456213134561
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [identificador] => 35
+                                            [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                            [informacionAdicional] => No existe un contribuyente registrado con el RUC 1234567891001
+                                            [tipo] => ERROR
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [identificador] => 35
+                                            [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                            [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: No se ha encontrado un esquema para el tipo de comprobante TipoComprobante(=codigo: 1, codigoTipoDocumentoAdm: 1, nombre: Factura, estado: ACT) en la version 1.00.
+                                            [tipo] => ERROR
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
